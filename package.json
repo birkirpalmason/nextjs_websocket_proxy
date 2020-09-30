@@ -1,0 +1,20 @@
+{
+  "name": "next-js-websocket-proxy-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3003",
+    "dev:server": "node dev-server.js",
+    "build": "next build",
+    "start": "next start",
+    "start:api": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.5",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "ws": "^7.3.1"
+  }
+}
